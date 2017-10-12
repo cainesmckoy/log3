@@ -2,7 +2,7 @@
 #COMPLETED CODE ON AUG, 26 2017. APROX. 5:45 A.M.
 	#Maybe attempt the range method of counting the IP addr. for now listing all numbers will have to do.
 #python3.5
-#Have to download some modules such as; ipaddress and setuptools.
+
 
 import socket,sys,time,datetime,argparse,os,subprocess
 
