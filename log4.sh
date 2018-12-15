@@ -1,8 +1,6 @@
 #!/bin/bash
-#COPY SCRIPT AS log4-1.sh
-#REMOVE -1 in log4-1.sh
+while true; do
 
-sudo pkill -9 log4-1.sh
 clear
 cd 115
 sudo rm info
@@ -15,5 +13,5 @@ echo "THESE FILES HAVE BEEN EDITED" > 115/info
 sudo find /etc /mnt /home . -mmin -30 -type f -print >> 115/info
 sudo cat 115/info
 sleep 60
-sudo ./log4-1.sh 
+done
 
